@@ -17,7 +17,6 @@ typedef struct SeqStack
 //定义关于迷宫的结构体
 typedef struct Maze
 {
-	//迷宫地图
 	int map[MAX_ROW][MAX_COL];
 }Maze;
 //定义迷宫地图的每个位置，由二维数组的行和列决定
